@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		904DC1E71454243800FA1550 /* ChangeLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 904DC1E61454243800FA1550 /* ChangeLog.txt */; };
+		9055A50F130E9E83005230AC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A508130E9E83005230AC /* Icon-Small@2x.png */; };
+		9055A510130E9E83005230AC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A509130E9E83005230AC /* Icon-Small-50.png */; };
+		9055A511130E9E83005230AC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A50A130E9E83005230AC /* Icon-Small.png */; };
+		9055A512130E9E83005230AC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A50B130E9E83005230AC /* Icon-72.png */; };
+		9055A513130E9E83005230AC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A50C130E9E83005230AC /* Icon@2x.png */; };
+		9055A514130E9E83005230AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9055A50D130E9E83005230AC /* Icon.png */; };
+		9055A515130E9E83005230AC /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9055A50E130E9E83005230AC /* iTunesArtwork */; };
+		F30860AF11DFD26C00FD4940 /* RingDiagDisplay.png in Resources */ = {isa = PBXBuildFile; fileRef = F30860AE11DFD26C00FD4940 /* RingDiagDisplay.png */; };
+		F30B94731204B9C7002BC529 /* LED_Green_On.png in Resources */ = {isa = PBXBuildFile; fileRef = F30B94721204B9C7002BC529 /* LED_Green_On.png */; };
+		F329DEEC12023F3E00141B59 /* LED.png in Resources */ = {isa = PBXBuildFile; fileRef = F329DEEB12023F3E00141B59 /* LED.png */; };
+		F329E0C61204668700F0BD95 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F329E0C51204668700F0BD95 /* QuartzCore.framework */; };
+		F357249011E223F0000FC809 /* RingO.png in Resources */ = {isa = PBXBuildFile; fileRef = F357248F11E223F0000FC809 /* RingO.png */; };
+		F38D9A3211D798DE00576FAC /* Aq16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9A3011D798DE00576FAC /* Aq16ViewController.m */; };
+		F38D9A3311D798DE00576FAC /* Aq16ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9A3111D798DE00576FAC /* Aq16ViewController.xib */; };
+		F38D9A4F11D79D6500576FAC /* Aq3264ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9A4D11D79D6500576FAC /* Aq3264ViewController.m */; };
+		F38D9A5011D79D6500576FAC /* Aq3264ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9A4E11D79D6500576FAC /* Aq3264ViewController.xib */; };
+		F38D9A6611D79F2D00576FAC /* AqOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9A6411D79F2D00576FAC /* AqOneViewController.m */; };
+		F38D9A6711D79F2D00576FAC /* AqOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9A6511D79F2D00576FAC /* AqOneViewController.xib */; };
+		F38D9A9A11D7A21500576FAC /* Aq16ViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9A9811D7A21500576FAC /* Aq16ViewController_iPhone.m */; };
+		F38D9A9B11D7A21500576FAC /* Aq16ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9A9911D7A21500576FAC /* Aq16ViewController_iPhone.xib */; };
+		F38D9AA311D7A25600576FAC /* Aq3264ViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9AA111D7A25600576FAC /* Aq3264ViewController_iPhone.m */; };
+		F38D9AA411D7A25600576FAC /* Aq3264ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9AA211D7A25600576FAC /* Aq3264ViewController_iPhone.xib */; };
+		F38D9AAC11D7A28100576FAC /* AqOneViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F38D9AAA11D7A28100576FAC /* AqOneViewController_iPhone.m */; };
+		F38D9AAD11D7A28100576FAC /* AqOneViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F38D9AAB11D7A28100576FAC /* AqOneViewController_iPhone.xib */; };
+		F3ADC91C1205041900421AF9 /* LED_Green_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ADC9191205041900421AF9 /* LED_Green_Off.png */; };
+		F3ADC91D1205041900421AF9 /* LED_Yellow_On.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ADC91A1205041900421AF9 /* LED_Yellow_On.png */; };
+		F3ADC91E1205041900421AF9 /* LED_Red_On.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ADC91B1205041900421AF9 /* LED_Red_On.png */; };
+		F3ADC94A1205098A00421AF9 /* LED_Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3ADC9491205098A00421AF9 /* LED_Clear.png */; };
+		F3D0467912027FEC001BFC74 /* LEDOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D0467812027FEC001BFC74 /* LEDOFF.png */; };
+		F3E417BC11DBCEBD003EF2E5 /* ringdiag_background.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E417BB11DBCEBD003EF2E5 /* ringdiag_background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* RingDiag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingDiag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RingDiag_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingDiag_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RingDiag-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RingDiag-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		904DC1E61454243800FA1550 /* ChangeLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog.txt; sourceTree = "<group>"; };
+		9055A508130E9E83005230AC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9055A509130E9E83005230AC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		9055A50A130E9E83005230AC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		9055A50B130E9E83005230AC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		9055A50C130E9E83005230AC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9055A50D130E9E83005230AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9055A50E130E9E83005230AC /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		F30860AE11DFD26C00FD4940 /* RingDiagDisplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RingDiagDisplay.png; sourceTree = "<group>"; };
+		F30B94721204B9C7002BC529 /* LED_Green_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED_Green_On.png; sourceTree = "<group>"; };
+		F329DEEB12023F3E00141B59 /* LED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED.png; sourceTree = "<group>"; };
+		F329E0C51204668700F0BD95 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F357248F11E223F0000FC809 /* RingO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RingO.png; sourceTree = "<group>"; };
+		F38D9A2F11D798DE00576FAC /* Aq16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aq16ViewController.h; sourceTree = "<group>"; };
+		F38D9A3011D798DE00576FAC /* Aq16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aq16ViewController.m; sourceTree = "<group>"; };
+		F38D9A3111D798DE00576FAC /* Aq16ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Aq16ViewController.xib; sourceTree = "<group>"; };
+		F38D9A4C11D79D6500576FAC /* Aq3264ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aq3264ViewController.h; sourceTree = "<group>"; };
+		F38D9A4D11D79D6500576FAC /* Aq3264ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aq3264ViewController.m; sourceTree = "<group>"; };
+		F38D9A4E11D79D6500576FAC /* Aq3264ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Aq3264ViewController.xib; sourceTree = "<group>"; };
+		F38D9A6311D79F2D00576FAC /* AqOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AqOneViewController.h; sourceTree = "<group>"; };
+		F38D9A6411D79F2D00576FAC /* AqOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AqOneViewController.m; sourceTree = "<group>"; };
+		F38D9A6511D79F2D00576FAC /* AqOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AqOneViewController.xib; sourceTree = "<group>"; };
+		F38D9A9711D7A21500576FAC /* Aq16ViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aq16ViewController_iPhone.h; sourceTree = "<group>"; };
+		F38D9A9811D7A21500576FAC /* Aq16ViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aq16ViewController_iPhone.m; sourceTree = "<group>"; };
+		F38D9A9911D7A21500576FAC /* Aq16ViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Aq16ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F38D9AA011D7A25600576FAC /* Aq3264ViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aq3264ViewController_iPhone.h; sourceTree = "<group>"; };
+		F38D9AA111D7A25600576FAC /* Aq3264ViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aq3264ViewController_iPhone.m; sourceTree = "<group>"; };
+		F38D9AA211D7A25600576FAC /* Aq3264ViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Aq3264ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F38D9AA911D7A28100576FAC /* AqOneViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AqOneViewController_iPhone.h; sourceTree = "<group>"; };
+		F38D9AAA11D7A28100576FAC /* AqOneViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AqOneViewController_iPhone.m; sourceTree = "<group>"; };
+		F38D9AAB11D7A28100576FAC /* AqOneViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AqOneViewController_iPhone.xib; sourceTree = "<group>"; };
+		F3ADC9191205041900421AF9 /* LED_Green_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED_Green_Off.png; sourceTree = "<group>"; };
+		F3ADC91A1205041900421AF9 /* LED_Yellow_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED_Yellow_On.png; sourceTree = "<group>"; };
+		F3ADC91B1205041900421AF9 /* LED_Red_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED_Red_On.png; sourceTree = "<group>"; };
+		F3ADC9491205098A00421AF9 /* LED_Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LED_Clear.png; sourceTree = "<group>"; };
+		F3D0467812027FEC001BFC74 /* LEDOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEDOFF.png; sourceTree = "<group>"; };
+		F3E417BB11DBCEBD003EF2E5 /* ringdiag_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ringdiag_background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F329E0C61204668700F0BD95 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RingDiag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F30860AE11DFD26C00FD4940 /* RingDiagDisplay.png */,
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+				F38D9A9711D7A21500576FAC /* Aq16ViewController_iPhone.h */,
+				F38D9A9811D7A21500576FAC /* Aq16ViewController_iPhone.m */,
+				F38D9A9911D7A21500576FAC /* Aq16ViewController_iPhone.xib */,
+				F38D9AA011D7A25600576FAC /* Aq3264ViewController_iPhone.h */,
+				F38D9AA111D7A25600576FAC /* Aq3264ViewController_iPhone.m */,
+				F38D9AA211D7A25600576FAC /* Aq3264ViewController_iPhone.xib */,
+				F38D9AA911D7A28100576FAC /* AqOneViewController_iPhone.h */,
+				F38D9AAA11D7A28100576FAC /* AqOneViewController_iPhone.m */,
+				F38D9AAB11D7A28100576FAC /* AqOneViewController_iPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+				F38D9A2F11D798DE00576FAC /* Aq16ViewController.h */,
+				F38D9A3011D798DE00576FAC /* Aq16ViewController.m */,
+				F38D9A3111D798DE00576FAC /* Aq16ViewController.xib */,
+				F38D9A4C11D79D6500576FAC /* Aq3264ViewController.h */,
+				F38D9A4D11D79D6500576FAC /* Aq3264ViewController.m */,
+				F38D9A4E11D79D6500576FAC /* Aq3264ViewController.xib */,
+				F38D9A6311D79F2D00576FAC /* AqOneViewController.h */,
+				F38D9A6411D79F2D00576FAC /* AqOneViewController.m */,
+				F38D9A6511D79F2D00576FAC /* AqOneViewController.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9055A508130E9E83005230AC /* Icon-Small@2x.png */,
+				9055A509130E9E83005230AC /* Icon-Small-50.png */,
+				9055A50A130E9E83005230AC /* Icon-Small.png */,
+				9055A50B130E9E83005230AC /* Icon-72.png */,
+				9055A50C130E9E83005230AC /* Icon@2x.png */,
+				9055A50D130E9E83005230AC /* Icon.png */,
+				9055A50E130E9E83005230AC /* iTunesArtwork */,
+				F3ADC9491205098A00421AF9 /* LED_Clear.png */,
+				F3ADC9191205041900421AF9 /* LED_Green_Off.png */,
+				F3ADC91A1205041900421AF9 /* LED_Yellow_On.png */,
+				F3ADC91B1205041900421AF9 /* LED_Red_On.png */,
+				F30B94721204B9C7002BC529 /* LED_Green_On.png */,
+				F3D0467812027FEC001BFC74 /* LEDOFF.png */,
+				F329DEEB12023F3E00141B59 /* LED.png */,
+				F357248F11E223F0000FC809 /* RingO.png */,
+				F3E417BB11DBCEBD003EF2E5 /* ringdiag_background.png */,
+				8D1107310486CEB800E47090 /* RingDiag-Info.plist */,
+				904DC1E61454243800FA1550 /* ChangeLog.txt */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F329E0C51204668700F0BD95 /* QuartzCore.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RingDiag_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RingDiag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RingDiag" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingDiag;
+			productName = RingDiag;
+			productReference = 1D6058910D05DD3D006BFB54 /* RingDiag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RingDiag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RingDiag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				F38D9A3311D798DE00576FAC /* Aq16ViewController.xib in Resources */,
+				F38D9A5011D79D6500576FAC /* Aq3264ViewController.xib in Resources */,
+				F38D9A6711D79F2D00576FAC /* AqOneViewController.xib in Resources */,
+				F38D9A9B11D7A21500576FAC /* Aq16ViewController_iPhone.xib in Resources */,
+				F38D9AA411D7A25600576FAC /* Aq3264ViewController_iPhone.xib in Resources */,
+				F38D9AAD11D7A28100576FAC /* AqOneViewController_iPhone.xib in Resources */,
+				F3E417BC11DBCEBD003EF2E5 /* ringdiag_background.png in Resources */,
+				F30860AF11DFD26C00FD4940 /* RingDiagDisplay.png in Resources */,
+				F357249011E223F0000FC809 /* RingO.png in Resources */,
+				F329DEEC12023F3E00141B59 /* LED.png in Resources */,
+				F3D0467912027FEC001BFC74 /* LEDOFF.png in Resources */,
+				F30B94731204B9C7002BC529 /* LED_Green_On.png in Resources */,
+				F3ADC91C1205041900421AF9 /* LED_Green_Off.png in Resources */,
+				F3ADC91D1205041900421AF9 /* LED_Yellow_On.png in Resources */,
+				F3ADC91E1205041900421AF9 /* LED_Red_On.png in Resources */,
+				F3ADC94A1205098A00421AF9 /* LED_Clear.png in Resources */,
+				9055A50F130E9E83005230AC /* Icon-Small@2x.png in Resources */,
+				9055A510130E9E83005230AC /* Icon-Small-50.png in Resources */,
+				9055A511130E9E83005230AC /* Icon-Small.png in Resources */,
+				9055A512130E9E83005230AC /* Icon-72.png in Resources */,
+				9055A513130E9E83005230AC /* Icon@2x.png in Resources */,
+				9055A514130E9E83005230AC /* Icon.png in Resources */,
+				9055A515130E9E83005230AC /* iTunesArtwork in Resources */,
+				904DC1E71454243800FA1550 /* ChangeLog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				F38D9A3211D798DE00576FAC /* Aq16ViewController.m in Sources */,
+				F38D9A4F11D79D6500576FAC /* Aq3264ViewController.m in Sources */,
+				F38D9A6611D79F2D00576FAC /* AqOneViewController.m in Sources */,
+				F38D9A9A11D7A21500576FAC /* Aq16ViewController_iPhone.m in Sources */,
+				F38D9AA311D7A25600576FAC /* Aq3264ViewController_iPhone.m in Sources */,
+				F38D9AAC11D7A28100576FAC /* AqOneViewController_iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stan Benoit (3YDRANRAWS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RingDiag_Prefix.pch;
+				INFOPLIST_FILE = "RingDiag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = RingDiag;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FF65AF1E-3E8F-4839-ABC1-6570126FA768";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RingDiag_Prefix.pch;
+				INFOPLIST_FILE = "RingDiag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = RingDiag;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90393A521448513100EE611E /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad-Hoc";
+		};
+		90393A531448513100EE611E /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RingDiag_Prefix.pch;
+				INFOPLIST_FILE = "RingDiag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = RingDiag;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stan Benoit (3YDRANRAWS)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FF65AF1E-3E8F-4839-ABC1-6570126FA768";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RingDiag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				90393A531448513100EE611E /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RingDiag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				90393A521448513100EE611E /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

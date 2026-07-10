@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = /Volumes/GIT/iRingDiag
+[branch "Developer_Branch"]
+	remote = origin
+	merge = refs/heads/Developer_Branch
+[remote "iRingDiag"]
+	url = ssh://sbenoit@saturn.local/git/iRingDiag.git
+	fetch = +refs/heads/*:refs/remotes/iRingDiag/*
+[branch "iOS8_13NOV2014"]
+	remote = iRingDiag
+	merge = refs/heads/master

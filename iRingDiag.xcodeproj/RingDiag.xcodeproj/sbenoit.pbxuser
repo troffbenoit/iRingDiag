@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* RingDiag */ = {
+		activeExec = 0;
+		executables = (
+			90B873B81303609F00EBD30C /* RingDiag */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 90B873B81303609F00EBD30C /* RingDiag */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* RingDiag */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* RingDiag */,
+		);
+		codeSenseManager = 90B873C2130360C000EBD30C /* Code sense */;
+		executables = (
+			90B873B81303609F00EBD30C /* RingDiag */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					671,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319723106;
+			PBXWorkspaceStateSaveDate = 319723106;
+		};
+		perUserProjectItems = {
+			9055A52F130EA571005230AC /* PBXTextBookmark */ = 9055A52F130EA571005230AC /* PBXTextBookmark */;
+			9055A530130EA571005230AC /* PBXBookmark */ = 9055A530130EA571005230AC /* PBXBookmark */;
+			9055A531130EA571005230AC /* PBXBookmark */ = 9055A531130EA571005230AC /* PBXBookmark */;
+			9055A532130EA571005230AC /* PBXBookmark */ = 9055A532130EA571005230AC /* PBXBookmark */;
+			9055A533130EA571005230AC /* PBXBookmark */ = 9055A533130EA571005230AC /* PBXBookmark */;
+			9055A534130EA571005230AC /* PBXBookmark */ = 9055A534130EA571005230AC /* PBXBookmark */;
+			9055A535130EA571005230AC /* PBXBookmark */ = 9055A535130EA571005230AC /* PBXBookmark */;
+			9055A536130EA571005230AC /* PBXBookmark */ = 9055A536130EA571005230AC /* PBXBookmark */;
+			9055A537130EA571005230AC /* PBXBookmark */ = 9055A537130EA571005230AC /* PBXBookmark */;
+			9055A538130EA571005230AC /* PlistBookmark */ = 9055A538130EA571005230AC /* PlistBookmark */;
+		};
+		sourceControlManager = 90B873C1130360C000EBD30C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9055A52F130EA571005230AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F38D9A6411D79F2D00576FAC /* AqOneViewController.m */;
+		name = "AqOneViewController.m: 59";
+		rLen = 252;
+		rLoc = 1170;
+		rType = 0;
+		vrLen = 1213;
+		vrLoc = 1165;
+	};
+	9055A530130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F3ADC9491205098A00421AF9 /* LED_Clear.png */;
+	};
+	9055A531130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A50D130E9E83005230AC /* Icon.png */;
+	};
+	9055A532130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A50C130E9E83005230AC /* Icon@2x.png */;
+	};
+	9055A533130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A50B130E9E83005230AC /* Icon-72.png */;
+	};
+	9055A534130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A50A130E9E83005230AC /* Icon-Small.png */;
+	};
+	9055A535130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A509130E9E83005230AC /* Icon-Small-50.png */;
+	};
+	9055A536130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9055A508130E9E83005230AC /* Icon-Small@2x.png */;
+	};
+	9055A537130EA571005230AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* RingDiag-Info.plist */;
+	};
+	9055A538130EA571005230AC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* RingDiag-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleVersion,
+		);
+		name = "/Volumes/troffbenoit/Documents/Oven/Universal/RingDiag/RingDiag-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	90B873B81303609F00EBD30C /* RingDiag */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RingDiag;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	90B873C1130360C000EBD30C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	90B873C2130360C000EBD30C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F38D9A6411D79F2D00576FAC /* AqOneViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 7683}}";
+			sepNavSelRange = "{1170, 252}";
+			sepNavVisRange = "{1165, 1213}";
+		};
+	};
+}
